@@ -168,10 +168,10 @@ internal static class Program
         var badPrograms =
             new Dictionary<string, (string shortName, string longName)>(StringComparer.InvariantCultureIgnoreCase)
             {
-                // @formatter:off
-                {"AvastSvc", ("Avast", "Avast Free Antivirus")},
-                {"AVGSvc",   ("AVG",   "AVG Antivirus")},
-                // @formatter:on
+                // // @formatter:off
+                // {"AvastSvc", ("Avast", "Avast Free Antivirus")},
+                // {"AVGSvc",   ("AVG",   "AVG Antivirus")},
+                // // @formatter:on
             };
 
         var badFound = Process.GetProcesses()
